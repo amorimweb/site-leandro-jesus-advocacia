@@ -60,6 +60,10 @@ export default function Page() {
         </div>
       </section>
 
+      <div className="photoStrip reveal" aria-hidden="true">
+        <img src="/office.jpg" alt="" loading="lazy" decoding="async" />
+      </div>
+
       <section className="about" id="escritorio">
         <div className="aboutCopy reveal">
           <span>Sobre</span>
